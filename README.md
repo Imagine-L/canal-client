@@ -64,7 +64,7 @@ FLUSH PRIVILEGES;
 
 github 下载地址：https://github.com/alibaba/canal/releases。不建议下载 `Pre-release` 的版本，可以下载 `Latest` 版本或者之前版本。
 
-![image-20230801172800779](E:\Learning\项目\Canal数据同步工具使用案例\img\image-20230801172800779.png)
+![image-20230801172800779](.\img\image-20230801172800779.png)
 
 ## Docker 下载
 
@@ -129,7 +129,7 @@ canal/canal-server:latest
 
 创建一个 SpringBoot 项目，目录结构如下：
 
-![image-20230801181039856](E:\Learning\项目\Canal数据同步工具使用案例\img\image-20230801181039856.png)
+![image-20230801181039856](.\img\image-20230801181039856.png)
 
 ## 引入依赖
 
@@ -471,4 +471,4 @@ public class CanalApplication implements CommandLineRunner {
 
 通过程序的控制台，我们也可以发现这点。
 
-![image-20230801225110888](E:\Learning\项目\Canal数据同步工具使用案例\img\image-20230801225110888.png)
+![image-20230801225110888](.\img\image-20230801225110888.png)
